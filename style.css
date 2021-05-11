@@ -1,0 +1,35 @@
+.header{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.bucket{
+    background-color: bisque;
+    position: relative;
+    transform: scale(1,-1);
+    height: fit-content;
+    width: 400px;
+    border: cadetblue 2px solid;
+    border-bottom: none;
+}
+
+.ball{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border-radius: 50px;
+}
+
+
+.inline-block-child{
+    display: inline-block;
+}
+
+.wrapper{
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
